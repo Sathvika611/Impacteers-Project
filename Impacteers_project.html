@@ -7,53 +7,28 @@
 			background-position:center;
 			background-repeat: no-repeat;
 			background-size: 1500px;
-			margin:0;
-			padding:0;
 		}
 		*{
 			box-sizing: border-box
 		}      
-		.mySlides {
-			display: none
-		}
-		img {
-			vertical-align: middle;
-		}
 		.slideshow-container {
 			max-width: 1000px;
-			position: relative;
 			margin: auto;
 			padding-left:210px;
 		}
 		/* The dots/bullets/indicators */
 		.dot {
-			cursor: pointer;
 			height: 15px;
 			width: 15px;
 			margin: 0 2px;
 			background-color: #999999;
 			border-radius: 50%;
 			display: inline-block;
-			transition: background-color 0.6s ease;
-		}
-		.active,
-		.dot:hover {
-			background-color: #111111;
 		}
 		/* Fading animation */
 		.fade {
 			-webkit-animation-name: fade;
 			-webkit-animation-duration: 1.5s;
-			animation-name: fade;
-			animation-duration: 1.5s;
-		}
-		@-webkit-keyframes fade {
-			from {
-				opacity: .4
-			}
-			to {
-			opacity: 1
-			}
 		}
 		@keyframes fade {
 			from {
@@ -73,7 +48,7 @@
 	<table width="70%">
 	<tr>
 		<td ><img src="https://4.bp.blogspot.com/-IB2RZRMGx0w/Tana8FacMTI/AAAAAAAAAHU/bkppAPk63Yo/s1600/100_1465.JPG" width="150" height="80"></td>
-		<th style="font-size: 50;color:MidnightBlue;padding-left:50px">TRIBUTE</th>
+		<th style="font-size: 50;color:MidnightBlue">TRIBUTE</th>
 	</tr>
 	</table>
 	<hr>
@@ -129,17 +104,17 @@ Here's a look at some of those great and famous personalities because of whom we
     </div>
     <br>
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-	  <span class="dot" onclick="currentSlide(4)"></span>
-	  <span class="dot" onclick="currentSlide(5)"></span>
-	  <span class="dot" onclick="currentSlide(6)"></span>
-	  <span class="dot" onclick="currentSlide(7)"></span>
-	  <span class="dot" onclick="currentSlide(8)"></span>
-	  <span class="dot" onclick="currentSlide(9)"></span>
-	  <span class="dot" onclick="currentSlide(10)"></span>
-	  <span class="dot" onclick="currentSlide(11)"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
+	  <span class="dot"></span>
     </div>
     <script>
       var slideIndex = 0;
